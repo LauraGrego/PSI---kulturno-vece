@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Početna</title>
+</head>
+<body>
+<div class="container">
+
+    <div id="header1" class="row">
+        <div class="col-sm">
+            <a href="" class="deo1" id="alogo">
+                <img src="slike/logo.jpg" alt="Logo" id="logo">
+            </a>
+        </div>
+        <div class="col-sm-1">
+            <div class="probica">
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="probica">
+                <a href="index4.php" class="deo">Početna </a>
+            </div>
+
+        </div>
+        <div class="col-sm">
+            <div class="probica">
+                <a href="desavanja4.php" class="deo">Dešavanja</a>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="probica">
+                <a href="kontakt4.php" class="deo">Utisci i kontakt</a>
+            </div>
+        </div>
+        <div class="col-sm-1">
+            <div class="probica">
+            </div>
+        </div>
+
+        <div class="col-sm">
+            <div class="dropdown">
+                <h1 id="dropdownH"><img src="slike/adminLogo.png" alt="user?" id="userSlika"></h1>
+                <button class="dropbtn">Moj nalog</button>
+                <div class="dropdown-content">
+                    <a href="mojNalog3.php">Izmene naloga</a>
+                    <a href="dodajKorisnika.php">Dodaj korisnika</a>
+                    <a href="index.php">Odjava</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id = "kontejner">
+        <h1 class="naziv"> KULTURNO VEČE </h1>
+        <ul class="cb-slideshow">
+            <li>
+                <span>Image 01</span>
+            </li>
+            <li>
+                <span>Image 02</span>
+            </li>
+            <li>
+                <span>Image 03</span>
+            </li>
+            <li>
+                <span>Image 04</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

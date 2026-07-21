@@ -1,4 +1,4 @@
-# PSI – Cultural Evening
+# PSI - Kulturno vece
 
 A web application for managing cultural events, developed as part of the **Software Engineering Principles (PSI)** course at the **School of Electrical Engineering, University of Belgrade (ETF)**.
 
